@@ -41,7 +41,7 @@ body {
     display: grid;
     place-content: center;
     font-size: .87rem;
-    margin: 4rem 0;
+
 }
 
 main {
@@ -59,8 +59,7 @@ main {
 
 
 .box {
-    max-width: 12rem;
-   
+    max-width: 12rem; 
     position: absolute;
     z-index: 2;
     left: -15%;
@@ -161,17 +160,21 @@ svg {
     }
 
     .box {
-        top: -10%;
+        top: -8%;
         left: 9%;
+        width: 30%;
     }
 
     .hero-image {
         overflow: visible;
+        background-image: url("images/bg-pattern-mobile.svg");
+        background-position: right 60% bottom -5vh;
     }
 
     .illustration {
-        left: 12%;
-        top: -280%;
+        left: 10%;
+        top: -270%;
+        width: 80%;
     }
 
     .accordion-section {
